@@ -42,34 +42,9 @@ cd Health-Mnagement-System
 
 
 
+🔗Project Structure
 
-Step 2: Configure the Database
-Install and start MySQL.
-Create a database:
-sql
-Copy code
-CREATE DATABASE health_management_system;
-Import the database schema from the database.sql file included in the repository:
-bash
-Copy code
-mysql -u [username] -p health_management_system < database.sql
-Update the database configuration in the project:
-Locate the database properties in the dbConfig.java file or web.xml:
-java
-Copy code
-jdbc.url=jdbc:mysql://localhost:3306/health_management_system
-jdbc.username=your-username
-jdbc.password=your-password
-Step 3: Deploy the Application
-Build the project using your IDE (e.g., Eclipse or IntelliJ IDEA).
-Deploy the .war file or project folder to the Apache Tomcat server.
-Start the Tomcat server and navigate to:
-arduino
-Copy code
-http://localhost:8080/Health-Management-System
-Project Structure
-bash
-Copy code
+
 Health-Management-System/
 ├── src/
 │   ├── main/
